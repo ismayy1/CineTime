@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-@Entity
+@Entity(name = "t_movie")
 @Getter
 @Setter
 @AllArgsConstructor
@@ -64,7 +64,7 @@ public class Movie {
 
     @NotNull
     @ElementCollection
-    private List<String> cast;
+    private List<String> castNames;
 
     @NotNull
     @ElementCollection
