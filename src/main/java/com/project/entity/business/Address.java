@@ -15,7 +15,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDateTime;
 
-@Entity
+@Entity(name = "t_address")
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
